@@ -1,0 +1,12 @@
+12c12
+< #include "EVP_des_ede3_cbc.h"
+---
+> #include "EVP_aes_256_cbc.h"
+28,30c28,30
+< #define KEY_SIZE 24
+< #define IV_SIZE 8
+< #define EXTRA_ENC_BUFF 8
+---
+> #define KEY_SIZE 32
+> #define IV_SIZE 16
+> #define EXTRA_ENC_BUFF 16
